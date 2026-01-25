@@ -1,27 +1,25 @@
-import HeroImage from ".././public/assets/hero-image.png";
-import AbouteImage from ".././public/assets/about-image.png";
-import HeroBG from ".././public/assets/hero-bg.svg"
+const HeroImage = "/assets/hero-image.PNG";
+const AbouteImage = "/assets/about-image.png";
 
 export const Images = {
     HeroImage,
     AbouteImage,
-    HeroBG,
 };
 
-import LaravelLogo from ".././public/assets/laravel-svgrepo-com.svg";
-import ReactLogo from ".././public/assets/react-logo-svgrepo-com.svg";
-import TailwindLogo from ".././public/assets/tailwind-svgrepo-com.svg";
-import BootstrapLogo from ".././public/assets/bootstrap-svgrepo-com.svg";
-import HTMLLogo from ".././public/assets/html-svgrepo-com.svg";
-import CSSLogo from ".././public/assets/css-3-svgrepo-com.svg";
-import PHPLogo from ".././public/assets/php-logo-svgrepo-com.svg";
-import JavaScriptLogo from ".././public/assets/javascript-svgrepo-com.svg";
-import AutoCADLogo from ".././public/assets/autocad-logo-png-svg-vector.svg";
-import SketchupLogo from ".././public/assets/sketchup-seeklogo.png";
-import PhotoshopLogo from ".././public/assets/adobe-photoshop-logo-png-svg-vector.svg";
-import IllustratorLogo from ".././public/assets/adobe-illustrator-logo-png-svg-vector.svg";
-import FigmaLogo from ".././public/assets/figma-logo.svg";
-import CorelLogo from ".././public/assets/icons8-coreldraw.svg";
+const LaravelLogo = "/assets/laravel-svgrepo-com.svg";
+const ReactLogo = "/assets/react-logo-svgrepo-com.svg";
+const TailwindLogo = "/assets/tailwind-svgrepo-com.svg";
+const BootstrapLogo = "/assets/bootstrap-svgrepo-com.svg";
+const HTMLLogo = "/assets/html-svgrepo-com.svg";
+const CSSLogo = "/assets/css-3-svgrepo-com.svg";
+const PHPLogo = "/assets/php-logo-svgrepo-com.svg";
+const JavaScriptLogo = "/assets/javascript-svgrepo-com.svg";
+const AutoCADLogo = "/assets/autocad-logo-png-svg-vector.svg";
+const SketchupLogo = "/assets/sketchup-seeklogo.png";
+const PhotoshopLogo = "/assets/adobe-photoshop-logo-png-svg-vector.svg";
+const IllustratorLogo = "/assets/adobe-illustrator-logo-png-svg-vector.svg";
+const FigmaLogo = "/assets/figma-logo.svg";
+const CorelLogo = "/assets/icons8-coreldraw.svg";
 
 export const usingTools = [
     {
@@ -124,13 +122,13 @@ export const usingTools = [
     },
 ];
 
-import Clicky from ".././public/assets/clicky.jpg";
-import Kymchi from ".././public/assets/kymchi.jpg";
-import Rumangsa from ".././public/assets/rumangsa.jpg";
-import SentinelCare from ".././public/assets/mockup.png";
-import Akasa from ".././public/assets/akasa.jpg";
-import SmoothVilla from ".././public/assets/smooth-villa.jpg";
-import Music from ".././public/assets/music.jpg";
+const Clicky = "/assets/clicky.jpg";
+const Kymchi = "/assets/kymchi.jpg";
+const Rumangsa = "/assets/rumangsa.jpg";
+const SentinelCare = "/assets/mockup.png";
+const Akasa = "/assets/akasa.jpg";
+const SmoothVilla = "/assets/smooth-villa.jpg";
+const Music = "/assets/music.jpg";
 
 export const project = [
     {
