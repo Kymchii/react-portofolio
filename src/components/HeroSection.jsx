@@ -1,8 +1,8 @@
 import { GrDocumentDownload, GrGithub } from "react-icons/gr"
 import { Images } from "../data"
+import cvFile from "../../public/assets/cv-wahyu-upd.pdf";
 
 export const HeroSection = () => {
-    const cv = '/assets/cv-wahyu-upd.pdf';
     return (
         <div className={`hero-section grid grid-cols-1 px-6 gap-6 sm:px-24 sm:grid-cols-2 lg:h-lvh sm:h-full lg:px-56 lg:grid-cols-2 pt-20`}>
             <div className="flex flex-col gap-3 sm:justify-center animate__animated animate__fadeInUp animate__delay-3s">
@@ -10,7 +10,7 @@ export const HeroSection = () => {
                 <h1 className="lg:text-7xl text-5xl poppins-semibold">Selamat Datang di</h1>
                 <h2 className="text-2xl">Website Portofolio Wahyu</h2>
                 <div className="flex gap-3">
-                    <a href={cv} download="cv-wahyu.pdf" className="bg-rose-600 px-3 py-2 rounded-full text-sm hover:bg-rose-800 cursor-pointer transition-all"><GrDocumentDownload className="inline mr-2" />Unduh CV</a>
+                    <a href={cvFile} download="cv-wahyu.pdf" className="bg-rose-600 px-3 py-2 rounded-full text-sm hover:bg-rose-800 cursor-pointer transition-all"><GrDocumentDownload className="inline mr-2" />Unduh CV</a>
                     <a href="https://github.com/Kymchii" target="_blank" className="border border-stone-50 px-3 py-2 rounded-full text-sm cursor-pointer transition-all"><GrGithub className="inline mr-2" />Github</a>
                 </div>
             </div>
