@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { navItems } from '../data';
-import { IoMdList } from 'react-icons/io';
+import { IoMdClose, IoMdList } from 'react-icons/io';
 
 export const NavBar = () => {
     const [scrolled, setScrolled] = useState(false);
@@ -70,7 +70,7 @@ export const NavBar = () => {
                 <div>
                     <h1 className="sm:text-2xl poppins-bold cursor-pointer text-xl"><span className='text-rose-600'>W</span>ahyu</h1>
                 </div>
-                <IoMdList onClick={handleNavToggle} className="lg:hidden text-xl" />
+                {navToggle ? (<IoMdClose onClick={handleNavToggle} className="lg:hidden text-2xl" />) : (<IoMdList onClick={handleNavToggle} className="lg:hidden text-2xl" />)}
                 <ul ref={sideBarRef} className={`sm:w-1/2 lg:w-fit shadow-sm flex flex-col fixed top-0 gap-4 items-center -left-full bottom-0 w-3/4 bg-stone-50 py-6 text-gray-950 ${scrolled ? "lg:text-gray-950" : "lg:text-stone-50"} ${navToggle ? 'left-0' : ''} lg:flex-row lg:static lg:gap-8 lg:bg-transparent lg:shadow-none transition-all`}>
                     {navItems.map((item) => (
                         <li key={item.id} className="list-none"><a href={`#${item.id}`} className={`no-underline text-sm poppins-light hover:bg-rose-600 px-4 py-1.5 rounded-full transition-all ${activeId === item.id ? `bg-rose-600 text-stone-50 lg:${scrolled ? "text-stone-50" : ""}` : ""} ${scrolled ? "hover:text-stone-50" : ""}`} onClick={() => handleNavClick(item.id)}>{item.label}</a></li>
