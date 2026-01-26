@@ -9,7 +9,7 @@ export const Footer = () => {
                     <h2 className="text-base mb-3">Sosial Media</h2>
                     <ul className="flex gap-3">
                         {socialMedia.map((item) => (
-                            <li className="group cursor-pointer p-5 border border-solid border-rose-600 rounded-full hover:bg-rose-600 hover:text-stone-50"><a href={item.href} target="_blank">{<item.icon className="text-lg text-rose-600 group-hover:text-slate-50" />}</a></li>
+                            <li key={item.id} className="group cursor-pointer p-5 border border-solid border-rose-600 rounded-full hover:bg-rose-600 hover:text-stone-50"><a href={item.href} target="_blank">{<item.icon className="text-lg text-rose-600 group-hover:text-slate-50" />}</a></li>
                         ))}
                     </ul>
                 </div>
