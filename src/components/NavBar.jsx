@@ -68,7 +68,7 @@ export const NavBar = () => {
         <div className={`navbar ${scrolled ? "bg-stone-50 text-gray-950 shadow-md" : ""} w-full fixed z-40`}>
             <div className={`flex justify-between sm:mx-12 items-center ${scrolled ? 'border-none' : 'border-b border-stone-50/25'} transition-all left-0 right-0 top-0 mx-6 lg:mx-24 py-2`}>
                 <div>
-                    <h1 className="text-2xl poppins-bold cursor-pointer">Wahyu</h1>
+                    <h1 className="sm:text-2xl poppins-bold cursor-pointer text-xl"><span className='text-rose-600'>W</span>ahyu</h1>
                 </div>
                 <IoMdList onClick={handleNavToggle} className="lg:hidden text-xl" />
                 <ul ref={sideBarRef} className={`sm:w-1/2 lg:w-fit shadow-sm flex flex-col fixed top-0 gap-4 items-center -left-full bottom-0 w-3/4 bg-stone-50 py-6 text-gray-950 ${scrolled ? "lg:text-gray-950" : "lg:text-stone-50"} ${navToggle ? 'left-0' : ''} lg:flex-row lg:static lg:gap-8 lg:bg-transparent lg:shadow-none transition-all`}>

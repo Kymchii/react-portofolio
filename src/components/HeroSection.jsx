@@ -9,7 +9,7 @@ export const HeroSection = () => {
                 <h1 className="lg:text-7xl text-5xl poppins-semibold">Selamat Datang di</h1>
                 <h2 className="text-2xl">Website Portofolio Wahyu</h2>
                 <div className="flex gap-3">
-                    <a href="/public/cv-wahyu-upd.pdf" download="cv-wahyu.pdf" className="bg-rose-600 px-3 py-2 rounded-full text-sm hover:bg-rose-800 cursor-pointer transition-all"><GrDocumentDownload className="inline mr-2" />Unduh CV</a>
+                    <a href="../../public/cv-wahyu-upd.pdf" download="cv-wahyu.pdf" className="bg-rose-600 px-3 py-2 rounded-full text-sm hover:bg-rose-800 cursor-pointer transition-all"><GrDocumentDownload className="inline mr-2" />Unduh CV</a>
                     <a href="https://github.com/Kymchii" target="_blank" className="border border-stone-50 px-3 py-2 rounded-full text-sm cursor-pointer transition-all"><GrGithub className="inline mr-2" />Github</a>
                 </div>
             </div>
