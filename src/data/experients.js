@@ -1,0 +1,38 @@
+export const experients = [
+    {
+        position: 'Drafter & Surveyor',
+        company: 'Freelance',
+        periods: '2020 - 2022',
+        description: 'Menyusun dan menghasilkan gambar DED untuk kebutuhan proyek konstruksi, mulai dari denah, tampak, hingga detail teknis dengan tingkat presisi tinggi. Melaksanakan survei dan pengukuran lapangan untuk lahan dan infrastruktur jalan, serta mengolah data topografi sebagai acuan perencanaan teknis proyek.',
+        isActive: false,
+        align: 'left',
+        delay: '200',
+    },
+    {
+        position: 'S1 Teknik Informatika',
+        company: 'Universitas Muhammadiyah Pontianak',
+        periods: '2021 - 2025',
+        description: 'Lulus tepat waktu. Fokus studi pada Kecerdasan Buatan dan Rekayasa Perangkat Lunak.',
+        isActive: false,
+        align: 'right',
+        delay: '300',
+    },
+    {
+        position: 'Editing & Field Supervisor',
+        company: 'DO Advertising',
+        periods: '2025',
+        description: 'Mengolah dan menelusuri gambar klien menjadi file vektor yang bersih dan akurat sebagai bahan siap cetak untuk kebutuhan produksi. Mengelola aktivitas lapangan harian termasuk pengambilan dan pengantaran barang untuk mendukung kelancaran operasional bengkel.',
+        isActive: false,
+        align: 'left',
+        delay: '400',
+    },
+    {
+        position: 'Pengawas Lapangan',
+        company: 'PT. Dayang Parahyangan',
+        periods: '2026',
+        description: 'Memastikan proses pembangunan rumah komersil berjalan sesuai spesifikasi teknis, jadwal, dan standar mutu yang telah disepakati.',
+        isActive: true,
+        align: 'right',
+        delay: '500',
+    },
+];
