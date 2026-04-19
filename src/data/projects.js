@@ -12,11 +12,11 @@ export const projects = [
         delay: '200',
     },
     {
-        title: 'Clicky',
+        title: '5CM',
         desc: 'Website company profile untuk coffee shop yang menampilkan identitas brand, informasi produk, dan layanan dengan desain yang elegan serta navigasi yang sederhana.',
         image: CM5,
         tech: ['React.js', 'Tailwind CSS'],
-        href: '',
+        href: 'https://github.com/Kymchii/5CM-Coffee',
         delay: '300',
     },
     {
