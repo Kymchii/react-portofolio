@@ -1,5 +1,5 @@
 const RentCamation = '../photos/rentcamation.png';
-const Clicky = '../photos/clicky.png';
+const CM5 = '../photos/5CM.png';
 const Nordu = '../photos/nordu-thumb.png';
 
 export const projects = [
@@ -14,8 +14,8 @@ export const projects = [
     {
         title: 'Clicky',
         desc: 'Website company profile untuk coffee shop yang menampilkan identitas brand, informasi produk, dan layanan dengan desain yang elegan serta navigasi yang sederhana.',
-        image: Clicky,
-        tech: ['HTML', 'JavaScript', 'CSS'],
+        image: CM5,
+        tech: ['React.js', 'Tailwind CSS'],
         href: '',
         delay: '300',
     },
